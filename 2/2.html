@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storages Second Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            border-bottom: 1px solid black;
+        }
+
+        /* nesting */
+        .dark {
+            background-color: black;
+
+            h1 {
+                color: azure;
+            }
+
+            a {
+                color: aqua;
+            }
+            header div {
+                color: aliceblue;
+            }
+            label {
+                color: aliceblue;
+            }
+            header {
+                border-color: aliceblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>Logo</div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Dark/Light</label>
+        </div>
+    </header>
+    <h1>Storages Second Page</h1>
+    <a href="/">На головну</a>
+    <script src="../main.js"></script>
+</body>
+
+</html>
